@@ -2,9 +2,11 @@
 
 En este primer día del curso, aprendimos los conceptos básicos de Python relacionados con cadenas (strings) e interacciones con el usuario mediante entradas (input). También se incluyó una tarea para practicar estos conceptos.
 
+---
+
 ## Archivos creados
 
-### 01. `strings`
+### 1. `01-strings.py`
 
 Este archivo contiene ejemplos básicos del uso de cadenas en Python. Aprendimos:
 
@@ -12,13 +14,13 @@ Este archivo contiene ejemplos básicos del uso de cadenas en Python. Aprendimos
 - Concatenar cadenas usando el operador `+`.
 - Manejar caracteres especiales dentro de las cadenas utilizando barras invertidas (`\`).
 
-### 02. `input`
+### 2. `02-input.py`
 
 En este archivo exploramos cómo interactuar con el usuario a través de la consola y cómo manejar las entradas de texto usando la función `input()`.
 
-### 03. `task`
+### 3. `03-task.py`
 
-Este archivo contiene una tarea en la que se pide al usuario que proporcione ciertos datos para generar un nombre creativo para su cervecería. Fue diseñado para poner en práctica lo aprendido sobre cadenas y entradas.
+**Tarea:** Este archivo contiene una tarea en la que se pide al usuario que proporcione ciertos datos para generar un nombre creativo para su cervecería. Fue diseñado para poner en práctica lo aprendido sobre cadenas y entradas.
 
 ---
 
