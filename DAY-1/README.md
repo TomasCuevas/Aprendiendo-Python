@@ -39,5 +39,3 @@ En este archivo exploramos cómo interactuar con el usuario a través de la cons
 
 3. **Tareas:**
    - Aplicar lo aprendido para resolver un problema práctico.
-
----
