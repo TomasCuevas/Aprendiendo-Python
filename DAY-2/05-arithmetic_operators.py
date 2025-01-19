@@ -1,3 +1,14 @@
+# OPERADORES MATEMATICOS: Los operadores matemáticos son operaciones matemáticas que se realizan sobre números.
+
+# SUMA: +
+# RESTA: -
+# MULTIPLICACIÓN: *
+# DIVISIÓN: /
+# COCIENTE (división "al piso"): //
+# RESTO (módulo): %
+# POTENCIA: **
+# RAIZ CUADRADA: **0.5
+
 x = 6
 y = 2
 z = 7

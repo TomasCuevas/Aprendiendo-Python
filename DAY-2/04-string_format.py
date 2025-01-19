@@ -1,3 +1,10 @@
+# FORMATEO DE STRINGS: Para facilitar la concatenación de variables y texto en Python, contamos con dos herramientas 
+# que nos evitan manipular las variables, para incorporarlas directamente al texto:
+
+# FORMAT: se encierra las posiciones de las variables entre corchetes { }, y a continuación del string llamamos a las variables con la función format
+
+# F-STRINGS: A partir de Python 3.8, podemos anticipar la concatenación de variables anteponiendo 'f' al string
+
 x = 10
 y = 5
 

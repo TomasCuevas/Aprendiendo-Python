@@ -1,3 +1,6 @@
+# DICCIONARIOS: Los diccionarios son estructuras de datos que almacenaninformación en pares clave:valor. 
+# Son especialmente útiles para guardar y recuperar información a partir de los nombresde sus claves (no utilizan índices).
+
 diccionario = {"c1": "valor 1", "c2": "valor 2"}
 
 print(f"El tipo de diccionario es '{type(diccionario)}'")

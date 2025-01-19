@@ -1,3 +1,6 @@
+# INDEX(): Utilizamos el método index() para explorar strings, ya quepermite hallar el índice
+# de aparición de un caracter o cadena decaracteres dentro de un texto dado.
+
 mi_texto = "Esta es una prueba"
 
 resultado = mi_texto[3]

@@ -1,3 +1,6 @@
+# CONVERSIONES: Python realiza conversiones implícitas de tipos de datos automáticamente para operar 
+# con valores numéricos. En otros casos, necesitaremos generar una conversión de manera explícita. 
+
 num1 = 20
 num2 = 30.5
 

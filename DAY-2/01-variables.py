@@ -1,3 +1,17 @@
+# VARIABLES: Las variables son espacios de memoria que almacenan valores o datos de distintos tipos, y (como su nombre indica) pueden variar. 
+# Se crean en el momento que se les asigna un valor, por lo cual en Python no requerimos declararlas previamente.
+
+# Existen convenciones y buenas prácticas asociadas al nombre de las variables creadas en Python. Las mismas tienen la intención de facilitar 
+# la interpretabilidad y mantenimiento del código creado.
+
+# REGLAS
+# 1. Legible: nombre de la variable es relevante según su contenido.
+# 2. Unidad: no existen espacios (puedes incorporar guiones bajos).
+# 3. Hispanismos: omitir signos específicos del idioma español,como tildes o la letra ñ.
+# 4. Nombres: los nombres de las variables no deben empezar por números (aunque pueden contenerlos al final).
+# 5. Signos/símbolos: no se deben incluir: " ' , < > / ? | \ ( ) ! @ #$ % ^ & * ~ - +.
+# 6. Palabras clave: no utilizamos palabras reservadas por Python
+
 nombre = 'Tomás'
 print(nombre)
 

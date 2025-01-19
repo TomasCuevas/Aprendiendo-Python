@@ -1,3 +1,6 @@
+# LIST: Las listas son secuencias ordenadas de objetos. Estos objetos pueden ser datos de cualquier tipo: 
+# strings, integers, floats, booleanos, listas, entre otros. Son tipos de datos mutables.
+
 mi_lista = ["a", "b", "c", "d"]
 mi_lista_2 = ["e", "f", "g", "h"]
 print(f"La lista mi_lista es '{mi_lista}'")
