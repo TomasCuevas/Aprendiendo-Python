@@ -1,0 +1,2 @@
+Creo un archivo nuevo llamado 'prueba2.txt'
+Este texto se añadirá al final del archivo

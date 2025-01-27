@@ -1,3 +1,2 @@
-Soy la primera linea
-¡Vaya! ¡Yo soy la segunda!
-He quedado tercera
+Hola
+Este es el nuevo texto para el archivo 'prueba.txt'
