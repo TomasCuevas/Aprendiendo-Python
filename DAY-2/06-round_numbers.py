@@ -1,5 +1,9 @@
-# REDONDEO: El redondeo facilita la interpretación de los valores calculados al limitar la cantidad 
-# de decimales que se muestran en pantalla. También, nos permite aproximar valores decimales al entero más próximo. 
+"""
+    # REDONDEO: 
+        El redondeo facilita la interpretación de los valores calculados al limitar la cantidad 
+        de decimales que se muestran en pantalla. También, nos permite aproximar valores decimales al entero más próximo. 
+"""
+
 
 resultado = 90/7
 redondeo = round(resultado)

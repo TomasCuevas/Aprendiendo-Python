@@ -1,5 +1,13 @@
-# son inmutables: una vez creados, no pueden modificarse sus partes,pero sí pueden reasignarse los valores de las variables a través demétodos de strings
+"""
+    # PROPIEDADES DE LOS STRINGS: 
+        son inmutables: una vez creados, no pueden modificarse sus partes,pero sí pueden reasignarse los valores de las variables a través demétodos de strings
+        concatenable: es posible unir strings con el símbolo +
+        multiplicable: es posible concatenar repeticiones de un string con elsímbolo *
+        multilineales: pueden escribirse en varias líneas al encerrarse entretriples comillas simples (''' ''') o dobles (""" """)
+"""
 
+
+# son inmutables: una vez creados, no pueden modificarse sus partes,pero sí pueden reasignarse los valores de las variables a través demétodos de strings
 nombre = "Carina"
 # nombre[0] = "K" -> ERROR
 nombre = f"K{nombre[1:]}"

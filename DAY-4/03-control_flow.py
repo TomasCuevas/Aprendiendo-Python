@@ -1,5 +1,9 @@
-# CONTROL DE FLUJO: El control de flujo determina el orden en que el código de un programa se va ejecutando. 
-# En Python, el flujo está controladopor estructuras condicionales, loops y funciones.
+"""
+    # CONTROL DE FLUJO: 
+        El control de flujo determina el orden en que el código de un programa se va ejecutando. 
+        En Python, el flujo está controlado por estructuras condicionales, loops y funciones.
+"""
+
 
 if 10 > 9:
   print("10 > 9: Es correcto \n")

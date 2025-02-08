@@ -1,5 +1,8 @@
-# COMPRENSION DE LISTAS: La comprensión de listas ofrece una sintaxis más breve en la creación de una nueva lista basada en valores disponibles en otra secuencia. 
-# Vale la pena mencionar que la brevedad se logra a costo de una menor interpretabilidad.
+"""
+    # COMPRENSION DE LISTAS: 
+        La comprensión de listas ofrece una sintaxis más breve en la creación de una nueva lista basada en valores disponibles en otra secuencia. 
+        Vale la pena mencionar que la brevedad se logra a costo de una menor interpretabilidad.
+"""
 
 palabra = "Python"
 lista = [letra for letra in palabra]

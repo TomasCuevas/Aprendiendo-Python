@@ -1,7 +1,12 @@
-# KWARGS: Los argumentos con palabras clave (keyword arguments, abreviado kwargs), sirven para identificar el argumento por su nombre, independientemente
-# de la posición en la que se pasen a su función. Si no se conoce de antemano su cantidad, se utiliza el parámetro **kwargs que los agrupa en un diccionario.
+"""
+    # KWARGS: 
+        Los argumentos con palabras clave (keyword arguments, abreviado kwargs), sirven para identificar el argumento por su nombre, independientemente
+        de la posición en la que se pasen a su función. 
+        Si no se conoce de antemano su cantidad, se utiliza el parámetro **kwargs que los agrupa en un diccionario.
 
-# Al igual que para *args, el nombre **kwargs no es mandatorio pero si es sugerido como buena práctica. Cualquier nombre iniciado en ** referirá a estos argumentos de cantidad variable.
+    # Al igual que para *args, el nombre **kwargs no es mandatorio pero si es sugerido como buena práctica. 
+    # Cualquier nombre iniciado en ** referirá a estos argumentos de cantidad variable.
+"""
 
 
 def suma(**kwargs):

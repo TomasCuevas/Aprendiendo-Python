@@ -1,5 +1,8 @@
-# INTERACCION ENTRE FUNCIONES: Las salidas de una determinada función pueden convertirse en entradas de otras funciones. De esa manera, 
-# cada función realiza una tarea definida, y el programa se construye a partir de la interacción entre funciones.
+"""
+    # INTERACCION ENTRE FUNCIONES: 
+        Las salidas de una determinada función pueden convertirse en entradas de otras funciones. 
+        De esa manera, cada función realiza una tarea definida, y el programa se construye a partir de la interacción entre funciones.
+"""
 
 from random import shuffle
 

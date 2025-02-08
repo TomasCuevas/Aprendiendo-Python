@@ -1,4 +1,8 @@
-# FUNCIONES: Una función es un bloque de código que solamente se ejecuta cuando es llamada. Puede recibir información (en forma de parámetros), y devolver datos una vez procesados como resultado. 
+"""
+    # FUNCIONES: 
+        Una función es un bloque de código que solamente se ejecuta cuando es llamada. 
+        Puede recibir información (en forma de parámetros), y devolver datos una vez procesados como resultado. 
+"""
 
 def saludar_persona():
   print("Ejecutando la función 'saludar_persona'")

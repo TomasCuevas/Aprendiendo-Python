@@ -1,5 +1,8 @@
-# FUNCIONES DINAMICAS: La integración de diferentes herramientas de control de flujo, nos permite crear funciones dinámicas y flexibles. 
-# Si debemos utilizarlas varias veces, lograremos un programa más limpio y sencillo de mantener, evitando repeticiones de código. 
+"""
+    # FUNCIONES DINAMICAS: 
+        La integración de diferentes herramientas de control de flujo, nos permite crear funciones dinámicas y flexibles. 
+        Si debemos utilizarlas varias veces, lograremos un programa más limpio y sencillo de mantener, evitando repeticiones de código. 
+"""
 
 def chequear_3_cifras(numero):
   return numero in range(100, 1000)

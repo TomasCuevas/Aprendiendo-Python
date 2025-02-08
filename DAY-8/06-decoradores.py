@@ -1,8 +1,9 @@
 """
-Los decoradores son patrones de diseño en Python utilizados
-para dar nueva funcionalidad a objetos (funciones),
-modificando su comportamiento sin alterar su estructura: son
-funciones que modifican funciones.
+    # Decoradores:
+        Los decoradores son patrones de diseño en Python utilizados
+        para dar nueva funcionalidad a objetos (funciones),
+        modificando su comportamiento sin alterar su estructura: son
+        funciones que modifican funciones.
 """
 
 print("--------------------------------")

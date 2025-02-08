@@ -1,4 +1,8 @@
-# SUBSTRINGS: Podemos extraer porciones de texto utilizando las herramientas de manipulación de strings conocidas como slicing (rebanar).
+"""
+    # SUBSTRINGS: 
+        Podemos extraer porciones de texto utilizando las herramientas de manipulación de strings conocidas como slicing (rebanar).
+"""
+
 
 texto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 print(texto)

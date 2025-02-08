@@ -1,8 +1,12 @@
-# Polimorfismo: El polimorfismo es el pilar de la POO mediante el cual un mismo método puede comportarse de diferentes maneras
-# según el objeto sobre el cual esté actuando, en función de cómo dicho método ha sido creado para la clase en particular.
+"""
+    # Polimorfismo: 
+        El polimorfismo es el pilar de la POO mediante el cual un mismo método puede comportarse de diferentes maneras
+        según el objeto sobre el cual esté actuando, en función de cómo dicho método ha sido creado para la clase en particular.
 
-# El método len() funciona en distintos tipos de objetos: listas, tuplas, strings, entreotros. Esto se debe a que
-# para Python, lo importante no son los tipos de objetos, sino lo que pueden hacer: sus métodos.
+    # El método len(): 
+        Funciona en distintos tipos de objetos: listas, tuplas, strings, entreotros. Esto se debe a que
+        para Python, lo importante no son los tipos de objetos, sino lo que pueden hacer: sus métodos.
+"""
 
 
 class Vaca:

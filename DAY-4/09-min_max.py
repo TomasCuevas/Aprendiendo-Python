@@ -1,5 +1,10 @@
-# MIN(): La función min() retorna el item con el valor más bajo dentro de un iterable. 
-# MAX(): La función max() funciona del mismo modo, devolviendo el valor más alto del iterable. Si el iterable contiene strings, la comparación se realiza alfabéticamente.
+"""
+    # MIN(): 
+        La función min() retorna el item con el valor más bajo dentro de un iterable. 
+    # MAX(): 
+        La función max() funciona del mismo modo, devolviendo el valor más alto del iterable. 
+        Si el iterable contiene strings, la comparación se realiza alfabéticamente.
+"""
 
 lista = [59, 45, 78, 12, 34]
 menor = min(lista)

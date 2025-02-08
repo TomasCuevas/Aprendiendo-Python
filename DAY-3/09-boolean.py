@@ -1,17 +1,20 @@
-# BOOLEANS: Los booleanos son tipos de datos binarios (True/False), que surgen de operaciones lógicas, o pueden declararse explícitamente.
+"""
+    # BOOLEANS: 
+        Los booleanos son tipos de datos binarios (True/False), que surgen de operaciones lógicas, o pueden declararse explícitamente.
 
-# OPERADORES LÓGICOS
+    # OPERADORES LÓGICOS
+        1. IGUAL A (==)
+        2. DIFERENTE A ==
+        3. MAYOR QUE>
+        4. MENOR QUE <
+        5. MAYOR O IGUAL QUE >=
+        6. MENOR O IGUAL QUE <=
+        
+        1. and (Y) (Si ambas declaraciones son True)
+        2. or (O) (Si al menos una declaración es True)
+        3. not (NO) (Invierte el valor del booleano)
+"""
 
-# IGUAL A (==)
-# DIFERENTE A ==
-# MAYOR QUE>
-# MENOR QUE <
-# MAYOR O IGUAL QUE >=
-# MENOR O IGUAL QUE <=
-
-# and (Y) (Si ambas declaraciones son True)
-# or (O) (Si al menos una declaración es True)
-# not (NO) (Invierte el valor del booleano)
 
 var1 = True
 

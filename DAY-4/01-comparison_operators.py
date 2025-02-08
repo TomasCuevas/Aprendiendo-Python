@@ -1,11 +1,16 @@
-# OPERADORES DE COMPARACION: Como su nombre lo indica, sirven para comparar dos o másvalores. El resultado de esta comparación es un booleano(True/False)
+"""
+    # OPERADORES DE COMPARACION: 
+        Como su nombre lo indica, sirven para comparar dos o más valores. 
+        El resultado de esta comparación es un booleano (True/False)
 
-# IGUAL A ==
-# DIFERENTE A !=
-# MAYOR QUE >
-# MENOR QUE <
-# MAYOR O IGUAL A >=
-# MENOR O IGUAL A <=
+        1. IGUAL A ==
+        2. DIFERENTE A !=
+        3. MAYOR QUE >
+        4. MENOR QUE <
+        5. MAYOR O IGUAL A >=
+        6. MENOR O IGUAL A <=
+"""
+
 
 mi_booleano = 10 == 25 
 print(f"10 == 25: {mi_booleano}")

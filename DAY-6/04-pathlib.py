@@ -1,21 +1,24 @@
-# El módulo pathlib, disponible desde Python 3.4, permite crear objetos Path, generando rutas que pueden ser interpretadas
-# por diferentes sistemas operativos y cuentan con una serie de propiedades útiles.
+"""
+    # El módulo pathlib: 
+        Disponible desde Python 3.4, permite crear objetos Path, generando rutas que pueden ser interpretadas
+        por diferentes sistemas operativos y cuentan con una serie de propiedades útiles.
 
-# ruta = Path("C:/Users/Usuario/Desktop")
+        ruta = Path("C:/Users/Usuario/Desktop")
 
-# A partir de una semántica sencilla, devuelve una ruta que el sistema puede comprender.
-# Por ejemplo, en Windows, devolverá: C:\Users\Usuario\Desktop y en Mac: C:/Users/Usuario/Desktop
+        A partir de una semántica sencilla, devuelve una ruta que el sistema puede comprender.
+        Por ejemplo, en Windows, devolverá: C:\Users\Usuario\Desktop y en Mac: C:/Users/Usuario/Desktop
 
-# Es posible concatenar objetos Path y strings con el delimitador "/" para construir rutas completas.
-# ruta = Path("C:/Users/Usuario/Desktop") / "archivo.txt"
+        Es posible concatenar objetos Path y strings con el delimitador "/" para construir rutas completas.
+        ruta = Path("C:/Users/Usuario/Desktop") / "archivo.txt"
 
-# Algunos métodos y propiedades sobre objetos Path
+        Algunos métodos y propiedades sobre objetos Path:
+            1. read_text(): lee el contenido del archivo sin necesidad de abrirlo y cerrarlo
+            2. name: devuelve el nombre y extensión del archivo
+            3. suffix: devuelve la extensión del archivo (sufijo)
+            4. stem: devuelve el nombre del archivo sin su extensión (sufijo)
+            5. exists(): verifica si el directorio o archivo al que referencia el objeto Path existe y devuelveun booleano de acuerdo al resultado (True/False)
+"""
 
-# read_text(): lee el contenido del archivo sin necesidad de abrirlo y cerrarlo
-# name: devuelve el nombre y extensión del archivo
-# suffix: devuelve la extensión del archivo (sufijo)
-# stem: devuelve el nombre del archivo sin su extensión (sufijo)
-# exists(): verifica si el directorio o archivo al que referencia el objeto Path existe y devuelveun booleano de acuerdo al resultado (True/False)
 
 from pathlib import Path, PureWindowsPath
 

@@ -1,21 +1,24 @@
-# Primero vas a crear una clase llamada Persona, y Persona va a tener solo dos atributos:
-# nombre y apellido. Luego, vas a crear una segunda clase llamada Cliente, y Cliente va a
-# heredar de Persona, porque los clientes son personas, por lo que el Cliente va a heredar
-# entonces los atributos de Persona, pero también va a tener atributos propios, como número
-# de cuenta y balance, es decir, el saldo que tiene en su cuenta bancaria.
+"""
+    # TAREA:
+        Primero vas a crear una clase llamada Persona, y Persona va a tener solo dos atributos:
+        nombre y apellido. Luego, vas a crear una segunda clase llamada Cliente, y Cliente va a
+        heredar de Persona, porque los clientes son personas, por lo que el Cliente va a heredar
+        entonces los atributos de Persona, pero también va a tener atributos propios, como número
+        de cuenta y balance, es decir, el saldo que tiene en su cuenta bancaria.
 
-# Pero eso no es todo: Cliente también va a tener tres métodos. El primero va a ser uno de los
-# métodos especiales y es el que permite que podamos imprimir a nuestro cliente. Este método
-# va a permitir que cuando el código pida imprimir Cliente, se muestren todos sus datos,
-# incluyendo el balance de su cuenta. Luego, un método llamado Depositar, que le va a permitir
-# decidir cuánto dinero quiere agregar a su cuenta. Y finalmente, un tercer método llamado
-# Retirar, que le permita decidir cuánto dinero quiere sacar de su cuenta.
+        Pero eso no es todo: Cliente también va a tener tres métodos. El primero va a ser uno de los
+        métodos especiales y es el que permite que podamos imprimir a nuestro cliente. Este método
+        va a permitir que cuando el código pida imprimir Cliente, se muestren todos sus datos,
+        incluyendo el balance de su cuenta. Luego, un método llamado Depositar, que le va a permitir
+        decidir cuánto dinero quiere agregar a su cuenta. Y finalmente, un tercer método llamado
+        Retirar, que le permita decidir cuánto dinero quiere sacar de su cuenta.
 
-# Una vez que hayas creado estas dos clases, tienes que crear el código para que tu programa se
-# desarrolle, pidiéndole al usuario que elija si quiere hacer depósitos o retiros. El usuario puede
-# hacer tantas operaciones como quiera hasta que decida salir del programa. Por lo tanto, nuestro
-# código tiene que ir llevando la cuenta de cuánto dinero hay en el balance, y debes procurar, por
-# supuesto, que el cliente nunca pueda retirar más dinero del que posee. Esto no está permitido.
+        Una vez que hayas creado estas dos clases, tienes que crear el código para que tu programa se
+        desarrolle, pidiéndole al usuario que elija si quiere hacer depósitos o retiros. El usuario puede
+        hacer tantas operaciones como quiera hasta que decida salir del programa. Por lo tanto, nuestro
+        código tiene que ir llevando la cuenta de cuánto dinero hay en el balance, y debes procurar, por
+        supuesto, que el cliente nunca pueda retirar más dinero del que posee. Esto no está permitido.
+"""
 
 from random import randint
 from os import system

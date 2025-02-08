@@ -1,4 +1,9 @@
-# Para controlar la información mostrada al usuario en consola podemos limpiarla, eliminando los diferentes mensajes que han aparecido conforme se va ejecutando el programa.
+"""
+    # LIMPIAR LA CONSOLA:
+        Para controlar la información mostrada al usuario en consola podemos limpiarla, eliminando los diferentes 
+        mensajes que han aparecido conforme se va ejecutando el programa.
+"""
+
 
 from os import system
 

@@ -1,13 +1,16 @@
-# Herencia extendida: Las clases "hijas" que heredan de las clases superiores, pueden crear nuevos métodos o sobrescribir los
-# de la clase "padre". Asimismo, una clase "hija" puede heredar de una o más clases, y a su vez transmitir herencia a clases "nietas".
+"""
+    # Herencia extendida: 
+        Las clases "hijas" que heredan de las clases superiores, pueden crear nuevos métodos o sobrescribir los
+        de la clase "padre". Asimismo, una clase "hija" puede heredar de una o más clases, y a su vez transmitir herencia a clases "nietas".
 
-# Si varias superclases tienen los mismos atributos o métodos, la subclase sólo podrá heredar de una de ellas.
-# En estos casos Python dará prioridad a la clase que se encuentre más a la izquierda.
+        Si varias superclases tienen los mismos atributos o métodos, la subclase sólo podrá heredar de una de ellas.
+        En estos casos Python dará prioridad a la clase que se encuentre más a la izquierda.
 
-# Del mismo modo, si un mismo método se hereda por parte de la clase "padre", e "hija", la clase "nieta" tendrá preferencia
-# por aquella más próxima ascendente (siguiendo nuestro esquema, la tomará de la clase "hija").
+        Del mismo modo, si un mismo método se hereda por parte de la clase "padre", e "hija", la clase "nieta" tendrá preferencia
+        por aquella más próxima ascendente (siguiendo nuestro esquema, la tomará de la clase "hija").
 
-# Un método dado se buscará primero en la propia clase, y de no hallarse, se explorará las superiores.
+        Un método dado se buscará primero en la propia clase, y de no hallarse, se explorará las superiores.
+"""
 
 
 class Animal:

@@ -1,5 +1,9 @@
-# SETS: Los sets son otro tipo de estructuras de datos. Se diferencian de listas, tuplas y diccionarios 
-# porque son una colección mutable de elementos inmutables , no ordenados y sin datos repetidos .
+"""
+    # SETS: 
+        Los sets son otro tipo de estructuras de datos. Se diferencian de listas, tuplas y diccionarios 
+        porque son una colección mutable de elementos inmutables , no ordenados y sin datos repetidos.
+"""
+
 
 mi_set = set([1, 2, 3, 4, 5])
 print(f"Mi set es: {mi_set}")

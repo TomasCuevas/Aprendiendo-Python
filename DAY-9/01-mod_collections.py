@@ -1,19 +1,22 @@
 """
-    El módulo Collections amplía los tipos de contenedores
-    disponibles en Python. Un contenedor almacena diferentes
-    objetos y proporciona una nueva forma de acceder e iterar
-    sobre los mismos.
+    # El módulo Collections amplía los tipos de contenedores
+        disponibles en Python. Un contenedor almacena diferentes
+        objetos y proporciona una nueva forma de acceder e iterar
+        sobre los mismos.
 
-    Counters (Contadores): Es una subclase del diccionario, usado para contar las
-    repeticiones de cada elemento en un iterable, en forma de diccionario:
+    # Counters (Contadores): 
+        Es una subclase del diccionario, usado para contar las
+        repeticiones de cada elemento en un iterable, en forma de diccionario:
 
-    DefaultDict: Es una subclase del diccionario, usado para proporcionar valores por
-    defecto para las claves que no existan, sin generar un mensaje de error. El valor por
-    defecto puede ser un tipo de dato (int, list, etc.) o una función lambda que proporcione
-    dicho valor directamente (lambda: "mi valor").    
+    # DefaultDict: 
+        Es una subclase del diccionario, usado para proporcionar valores por
+        defecto para las claves que no existan, sin generar un mensaje de error. El valor por
+        defecto puede ser un tipo de dato (int, list, etc.) o una función lambda que proporcione
+        dicho valor directamente (lambda: "mi valor").    
 
-    NamedTuple: devuelve una tupla donde las posiciones de sus elementos tienen un
-    nombre, además de un número de índice como las tuplas tradicionales.
+    # NamedTuple: 
+        devuelve una tupla donde las posiciones de sus elementos tienen un
+        nombre, además de un número de índice como las tuplas tradicionales.
 """
 
 from collections import Counter, defaultdict, namedtuple

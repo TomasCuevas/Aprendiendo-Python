@@ -4,23 +4,29 @@
     directorios. También mencionaremos métodos del módulo os
     que cumplen objetivos similares.
 
-    # shutil.move(archivo, directorio) : mueve un archivo desde el directorio actual
-    hacia aquel que se especifica en el segundo parámetro.
+    # shutil.move(archivo, directorio): 
+        mueve un archivo desde el directorio actual
+        hacia aquel que se especifica en el segundo parámetro.
     
-    # os.unlink(directorio) : elimina un archivo del directorio indicado
+    # os.unlink(directorio): 
+        elimina un archivo del directorio indicado
 
-    # os.rmdir(directorio) : elimina una carpeta vacía
+    # os.rmdir(directorio): 
+        elimina una carpeta vacía
     
-    # shutil.rmtree(directorio) : elimina una carpeta indicada en el directorio,
-    incluyendo todas sus ramificaciones (subcarpetas y archivos), de manera
-    definitiva y sin pasar por la papelera de reciclaje.
+    # shutil.rmtree(directorio): 
+        elimina una carpeta indicada en el directorio,
+        incluyendo todas sus ramificaciones (subcarpetas y archivos), de manera
+        definitiva y sin pasar por la papelera de reciclaje.
 
-    # send2trash.send2trash(archivo) : envía un archivo a la papelera de reciclaje (es
-    necesario instalar el módulo desde pip install Send2Trash y luego importarlo)
+    # send2trash.send2trash(archivo): 
+        envía un archivo a la papelera de reciclaje (es
+        necesario instalar el módulo desde pip install Send2Trash y luego importarlo)
 
-    # os.walk(directorio) : recorre el directorio indicado, y devuelve los nombres de
-    carpetas, subcarpetas y archivos dentro de ellas en forma de tupla, a través de un
-    generador.
+    # os.walk(directorio): 
+        recorre el directorio indicado, y devuelve los nombres de
+        carpetas, subcarpetas y archivos dentro de ellas en forma de tupla, a través de un
+        generador.
 """
 
 import os

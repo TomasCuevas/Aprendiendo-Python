@@ -1,10 +1,13 @@
-# LOOP FOR: A diferencia de otros lenguajes de programación, los loops for en Python tienen la capacidad de iterar a lo largo 
-# de los elementos de cualquier secuencia (listas, strings, entre otros),en el orden en que dichos elementos aparecen.
+"""
+    # LOOP FOR: 
+        Adiferencia de otros lenguajes de programación, los loops for en Python tienen la capacidad de iterar a lo largo 
+        de los elementos de cualquier secuencia (listas, strings, entre otros),en el orden en que dichos elementos aparecen.
 
-# CONCEPTOS
+    # CONCEPTOS
+        # LOOPS/BUCLES: son secuencias de instrucciones de código que seejecutan repetidas veces
+        # ITERABLES: son objetos en Python que se pueden recorrer (o iterar) a lolargo de sus elementos
+"""
 
-# LOOPS/BUCLES: son secuencias de instrucciones de código que seejecutan repetidas veces
-# ITERABLES: son objetos en Python que se pueden recorrer (o iterar) a lolargo de sus elementos
 
 lista = ["a", "b", "c"]
 

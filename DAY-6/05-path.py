@@ -1,9 +1,15 @@
-# La clase Path permite representar rutas de archivos en el sistema de archivos de nuestro sistema operativo. Se destaca por su legibilidad frente a alternativas semejantes.
+"""
+    # La clase Path: 
+        Permite representar rutas de archivos en el sistema de archivos de nuestro sistema operativo. 
+        Se destaca por su legibilidad frente a alternativas semejantes.
 
-# base = Path.home() --> Devuelve un objeto Path representando el directorio base del usuario
-# ruta2 = ruta.with_name("LaPedrera.txt") --> Devuelve un nuevo objeto Path cambiando únicamente el nombre de archivo
-# continente = ruta.parent.parent --> Cada invocación de la propiedad parentdevuelve la ruta de jerarquía inmediata superior
-# print(continente) >> C:\Users\...\Europa
+    # Métodos y propiedades de Path:
+        1. base = Path.home() --> Devuelve un objeto Path representando el directorio base del usuario
+        2. ruta2 = ruta.with_name("LaPedrera.txt") --> Devuelve un nuevo objeto Path cambiando únicamente el nombre de archivo
+        3. continente = ruta.parent.parent --> Cada invocación de la propiedad parentdevuelve la ruta de jerarquía inmediata superior
+        4. print(continente) >> C:\Users\...\Europa
+"""
+
 
 from pathlib import Path
 

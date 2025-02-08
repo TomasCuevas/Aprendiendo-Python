@@ -1,5 +1,10 @@
-# TUPLES: Los tuples o tuplas, son estructuras de datos que almacenan múltiples elementos en una única variable. Se caracterizan por ser ordenadas e inmutables.  
-# Esta característica las hace más eficientes en memoria y a prueba de daños
+"""
+    # TUPLES: 
+        Los tuples o tuplas, son estructuras de datos que almacenan múltiples elementos en una única variable. 
+        Se caracterizan por ser ordenadas e inmutables.  
+        Esta característica las hace más eficientes en memoria y a prueba de daños.
+"""
+
 
 mi_tupla = (1,2,(10, 20),4)
 

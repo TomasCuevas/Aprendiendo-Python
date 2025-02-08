@@ -1,5 +1,8 @@
-# ZIP(): La función zip() crea un iterador formado por los elementos agrupados del mismo índice provenientes de dos o más iterables. 
-# Zip deriva de zipper (cremallera o cierre), de modo que es una analogía muy útil para recordar.  
+"""
+    # ZIP(): 
+        La función zip() crea un iterador formado por los elementos agrupados del mismo índice provenientes de dos o más iterables. 
+        Zip deriva de zipper (cremallera o cierre), de modo que es una analogía muy útil para recordar.  
+"""
 
 nombres = ["Tomas", "Juan", "Maria"]
 edades = [25, 30, 35]

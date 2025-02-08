@@ -1,3 +1,12 @@
+"""
+    # TAREA:
+        Crear un programa que simule el sistema de atención de un
+        centro de atención al cliente.
+
+        El programa debe tener tres secciones: Perfumería, Farmacia y Cosméticos.
+        
+"""
+
 from os import system
 
 

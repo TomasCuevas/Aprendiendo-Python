@@ -1,14 +1,15 @@
-# Tipos de metodos:
+"""
+    # TIPOS DE METODOS:
+        Metodos de instancia: Poseen acceso a los atributos y metodos de la clase y de la instancia. Requieren una instancia de la clase.
+        Metodos de clase: Poseen acceso a los atributos y metodos de la clase, pero no a los de la instancia. No requieren una instancia de la clase.
+        Metodos estáticos: No poseen acceso a los atributos y metodos de la clase ni de la instancia. No requieren una instancia de la clase.
 
-# Metodos de instancia: Poseen acceso a los atributos y metodos de la clase y de la instancia. Requieren una instancia de la clase.
-# Metodos de clase: Poseen acceso a los atributos y metodos de la clase, pero no a los de la instancia. No requieren una instancia de la clase.
-# Metodos estáticos: No poseen acceso a los atributos y metodos de la clase ni de la instancia. No requieren una instancia de la clase.
+        Los métodos estáticos y de clase anteponen un decorador específico, que indica a Python el tipo de método que se estará definiendo.
 
-# Los métodos estáticos y de clase anteponen un decorador específico, que indica a Python el tipo de método que se estará definiendo.
-
-# Así como los métodos de instancia requieren del parámetro self para acceder adicha instancia, los métodos de clase
-# requieren del parámetro cls para acceder a los atributos de clase. Los métodos estáticos, dado que no pueden acceder a la
-# instancia ni a la clase, no indican un parámetro semejante.
+        Así como los métodos de instancia requieren del parámetro self para acceder adicha instancia, los métodos de clase
+        requieren del parámetro cls para acceder a los atributos de clase. Los métodos estáticos, dado que no pueden acceder a la
+        instancia ni a la clase, no indican un parámetro semejante.
+"""
 
 
 class Pajaro:

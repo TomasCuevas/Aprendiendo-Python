@@ -1,5 +1,8 @@
-# ENUMERATE(): La función enumerate( ) nos facilita llevar la cuenta de las iteraciones, a través de un contador de índices
-# de un iterable,que se puede utilizar de manera directa en un loop, o convertirse en una lista de tuplas con el método list( ).
+"""
+    # ENUMERATE(): 
+        La función enumerate( ) nos facilita llevar la cuenta de las iteraciones, a través de un contador de índices
+        de un iterable,que se puede utilizar de manera directa en un loop, o convertirse en una lista de tuplas con el método list( ).
+"""
 
 lista = ["a" , "b", "c"]
 indice = 0

@@ -1,5 +1,8 @@
-# MATCH: En Python 3.10, se incorpora la coincidencia de patronese structurales mediante las declaraciones match y case. 
-# Esto permite asociar acciones específicas basadas en las formas o patrones de tipos de datos complejos.
+"""
+    # MATCH: 
+        En Python 3.10, se incorpora la coincidencia de patronese structurales mediante las declaraciones match y case. 
+        Esto permite asociar acciones específicas basadas en las formas o patrones de tipos de datos complejos.
+"""
 
 serie = 'N-02'
 

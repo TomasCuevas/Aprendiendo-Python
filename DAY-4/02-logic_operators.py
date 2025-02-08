@@ -1,8 +1,12 @@
-# OPERADORES LOGICOS: Estos operadores permiten tomar decisiones basadas enmúltiples condiciones.
+"""
+    # OPERADORES LOGICOS: 
+        Estos operadores permiten tomar decisiones basadas enmúltiples condiciones.
 
-# AND devuelve True si todas las condiciones son verdaderas
-# OR devuelve True si al menos una condición es verdadera
-# NOT devuelve True si el valor del booleano es False, y False si es True
+        1. AND devuelve True si todas las condiciones son verdaderas
+        2. OR devuelve True si al menos una condición es verdadera
+        3. NOT devuelve True si el valor del booleano es False, y False si es True
+"""
+
 
 texto = "Esta frase es breve"
 

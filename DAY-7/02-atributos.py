@@ -1,10 +1,13 @@
-# Atributos: Los atributos son variables que pertenecen a la clase. Existen atributos de clase (compartidos por todas las instancias de la clase),
-# y de instancia (que son distintos en cada instancia de la clase).
+"""
+    # ATRIBUTOS: 
+        Los atributos son variables que pertenecen a la clase. Existen atributos de clase (compartidos por todas las instancias de la clase),
+        y de instancia (que son distintos en cada instancia de la clase).
 
-# Todas las clases tienen una función que se ejecuta al instanciarla, llamada __init__() , y que se utiliza para asignar
-# valores a las propiedades del objeto que está siendo creado.
+        Todas las clases tienen una función que se ejecuta al instanciarla, llamada __init__() , y que se utiliza para asignar
+        valores a las propiedades del objeto que está siendo creado.
 
-# self: representa a la instancia del objeto que se va a crear
+        self: representa a la instancia del objeto que se va a crear
+"""
 
 
 class Pajaro:

@@ -1,5 +1,11 @@
-# PRINT: Declaración que al ejecutarse muestra (o imprime) en pantalla el argumento que se introduce dentro de los paréntesis.
-# STRINGS: Los strings en Python son un tipo de dato formado por cadenas (o secuencias) de caracteres de cualquier tipo, formando un texto.
+"""
+    # PRINT: 
+        Declaración que al ejecutarse muestra (o imprime) en pantalla el argumento que se introduce dentro de los paréntesis.
+
+    # STRINGS: 
+        Los strings en Python son un tipo de dato formado por cadenas (o secuencias) de caracteres de cualquier tipo, formando un texto.
+"""
+
 
 print("Hello World!")
 

@@ -1,15 +1,19 @@
-# Trabajar sobre archivos que se encuentran en directorios diferentes al de nuestro código requiere del soporte del módulo OS,
-# que contiene una serie de funciones para interactuar con el sistema operativo.
+"""
+    # TRABAJAR SOBRE ARCHIVOS QUE SE ENCUENTRAN EN DIRECTORIOS DIFERENTES AL DE NUESTRO CÓDIGO REQUIERE DEL SOPORTE DEL MÓDULO OS,
+    QUE CONTIENE UNA SERIE DE FUNCIONES PARA INTERACTUAR CON EL SISTEMA OPERATIVO.
+    
+    # Métodos de OS:
+        1. os.getcwd(): obtiene y devuelve el directorio de trabajo actual. Será el mismo en el que corre el programa si no se ha modificado.
+        2. os.chdir(ruta): cambia el directorio de trabajo a la ruta especificada.
+        3. os.makedirs(ruta): crea una carpeta, así como todas las carpetas intermedias necesarias de acuerdo a la ruta especificada.
+        4. os.path.basename(ruta): dada una ruta, obtiene el nombre del archivo (nombre de base)
+        5. os.path.dirname(ruta): dada una ruta, obtiene el directorio (carpeta) que almacena el archivo
+        6. os.path.split(ruta): devuelve una tupla que contiene dos  elementos: el directorio, y el nombre de base del archivo.
+        7. rmdir(ruta): elimina el directorio indicado en la ruta.
 
-# os.getcwd(): obtiene y devuelve el directorio de trabajo actual. Será el mismo en el que corre el programa si no se ha modificado.
-# os.chdir(ruta): cambia el directorio de trabajo a la ruta especificada.
-# os.makedirs(ruta): crea una carpeta, así como todas las carpetas intermedias necesarias de acuerdo a la ruta especificada.
-# os.path.basename(ruta): dada una ruta, obtiene el nombre del archivo (nombre de base)
-# os.path.dirname(ruta): dada una ruta, obtiene el directorio (carpeta) que almacena el archivo
-# os.path.split(ruta): devuelve una tupla que contiene dos  elementos: el directorio, y el nombre de base del archivo.
-# rmdir(ruta): elimina el directorio indicado en la ruta.
+    # En Windows, es necesario indicar las rutas con dobles barras invertidas (\\) para que sean correctamente interpretadas por Python.
+"""
 
-# En Windows, es necesario indicar las rutas con dobles barras invertidas (\\) para que sean correctamente interpretadas por Python.
 
 import os
 from pathlib import Path

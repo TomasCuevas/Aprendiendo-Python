@@ -1,3 +1,8 @@
+"""
+    # EJEMPLO DE FUNCION: 
+        Vamos a crear una función que nos permita saber cuál es el café más caro de una lista de precios.
+"""
+
 precios_cafe = [("Capuchino", 1.5), ("Expreso", 2.2), ("Cafe", 1.2), ("Moka", 1.7)]  
 
 def cafe_mas_caro(lista_precios):

@@ -1,5 +1,7 @@
 """
-Este es un modulo que imprime el numero 500
+    # Pylint:
+        Pylint es una herramienta de análisis estático de código que ayuda a mejorar la calidad del código.
+        Puede ayudarnos a detectar errores y mejorar el código.
 """
 
 
