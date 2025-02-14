@@ -1,6 +1,7 @@
 import pygame
 import random
 import math
+from pygame import mixer
 
 # Inicializar Pygame
 pygame.init()
@@ -13,6 +14,11 @@ pygame.display.set_caption("Invasión Espacial")
 logo = pygame.image.load("ovni.png")
 pygame.display.set_icon(logo)
 fondo = pygame.image.load("fondo.jpg")
+
+# Sonido de fondo
+mixer.music.load("musica-fondo.mp3")
+mixer.music.set_volume(0.1)
+mixer.music.play(-1)
 
 # Variables del jugador
 img_jugador = pygame.image.load("cohete.png")
@@ -98,6 +104,9 @@ while se_ejecuta:
                 if proyectil_visible == False:
                     proyectil_x = jugador_x
                     disparar_proyectil(proyectil_x, proyectil_y)
+                    sonido_disparo = mixer.Sound("disparo.mp3")
+                    sonido_disparo.set_volume(0.5)
+                    sonido_disparo.play()
 
         # Detener el movimiento del jugador
         if evento.type == pygame.KEYUP:
@@ -127,6 +136,9 @@ while se_ejecuta:
 
         colision = hay_colision(enemigo_x[e], enemigo_y[e], proyectil_x, proyectil_y)
         if colision:
+            sonido_colision = mixer.Sound("colision.mp3")
+            sonido_colision.set_volume(0.2)
+            sonido_colision.play()
             proyectil_visible = False
             proyectil_y = jugador_y
             puntaje += 1
