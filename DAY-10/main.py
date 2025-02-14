@@ -44,6 +44,9 @@ proyectil_visible = False
 
 # Variables del puntaje
 puntaje = 0
+fuente = pygame.font.Font("freesansbold.ttf", 32)
+texto_x = 10
+texto_y = 10
 
 # Funcion para dibujar el jugador
 def jugador(x, y):
@@ -64,11 +67,20 @@ def hay_colision(x_1, y_1, x_2, y_2):
     distancia = math.sqrt(math.pow(x_2 - x_1, 2) + math.pow(y_2 - y_1, 2))
     return distancia < 27
 
+# Funcion para mostrar el puntaje
+def mostrar_puntaje(x, y):
+    texto = fuente.render(f"Puntaje: {puntaje}", True, (255, 255, 255))
+    pantalla.blit(texto, (x, y))
+
 # Loop del juego
 se_ejecuta = True
 while se_ejecuta:
-    # RGB
+    # Dibujar fondo
     pantalla.blit(fondo, (0, 0))
+
+    # Dibujar puntaje
+    mostrar_puntaje(texto_x, texto_y)
+
 
     # Eventos
     for evento in pygame.event.get():
