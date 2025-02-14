@@ -1,5 +1,7 @@
 import pygame
 import random
+import math
+
 # Inicializar Pygame
 pygame.init()
 
@@ -22,15 +24,18 @@ jugador_x_cambio = 0
 img_enemigo = pygame.image.load("enemigo.png")
 enemigo_x = random.randint(0, 736)
 enemigo_y = random.randint(50, 200)
-enemigo_x_cambio = 1
+enemigo_x_cambio = 0.5
 
 # Variables del proyectil
 img_proyectil = pygame.image.load("proyectil.png")
 proyectil_x = jugador_x
 proyectil_y = jugador_y
 proyectil_x_cambio = 0
-proyectil_y_cambio = 1
+proyectil_y_cambio = 3
 proyectil_visible = False
+
+# Variables del puntaje
+puntaje = 0
 
 # Funcion para dibujar el jugador
 def jugador(x, y):
@@ -45,6 +50,11 @@ def disparar_proyectil(x, y):
     global proyectil_visible
     proyectil_visible = True
     pantalla.blit(img_proyectil, (x + 16, y + 10))
+
+# Funcion para detectar colisiones
+def hay_colision(x_1, y_1, x_2, y_2):
+    distancia = math.sqrt(math.pow(x_2 - x_1, 2) + math.pow(y_2 - y_1, 2))
+    return distancia < 27
 
 # Loop del juego
 se_ejecuta = True
@@ -88,10 +98,10 @@ while se_ejecuta:
 
     # Limitar el movimiento del enemigo
     if enemigo_x <= 0:
-        enemigo_x_cambio = 1
+        enemigo_x_cambio = 0.5
         enemigo_y += 40
     elif enemigo_x >= 736:
-        enemigo_x_cambio = -1
+        enemigo_x_cambio = -0.5
         enemigo_y += 40
 
     # Movimiento del proyectil
@@ -102,6 +112,16 @@ while se_ejecuta:
     if proyectil_visible:
         disparar_proyectil(proyectil_x, proyectil_y)
         proyectil_y -= proyectil_y_cambio
+
+    # Detectar colisiones
+    colision = hay_colision(enemigo_x, enemigo_y, proyectil_x, proyectil_y)
+    if colision:
+        proyectil_visible = False
+        proyectil_y = jugador_y
+        proyectil_x = jugador_x
+        puntaje += 1
+        enemigo_x = random.randint(0, 736)
+        enemigo_y = random.randint(50, 200)
 
     # Dibujar el jugador
     jugador(jugador_x, jugador_y)
