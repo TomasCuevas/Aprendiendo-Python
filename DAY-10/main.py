@@ -10,6 +10,7 @@ pantalla = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Invasión Espacial")
 logo = pygame.image.load("ovni.png")
 pygame.display.set_icon(logo)
+fondo = pygame.image.load("fondo.jpg")
 
 # Variables del jugador
 img_jugador = pygame.image.load("cohete.png")
@@ -21,7 +22,7 @@ jugador_x_cambio = 0
 img_enemigo = pygame.image.load("enemigo.png")
 enemigo_x = random.randint(0, 736)
 enemigo_y = random.randint(50, 200)
-enemigo_x_cambio = 0.3
+enemigo_x_cambio = 1
 
 # Funcion para dibujar el jugador
 def jugador(x, y):
@@ -35,7 +36,7 @@ def enemigo(x, y):
 se_ejecuta = True
 while se_ejecuta:
     # RGB
-    pantalla.fill((205, 144, 228))
+    pantalla.blit(fondo, (0, 0))
 
     # Eventos
     for evento in pygame.event.get():
@@ -46,9 +47,9 @@ while se_ejecuta:
         # Movimiento del jugador
         if evento.type == pygame.KEYDOWN:
             if evento.key == pygame.K_LEFT:
-                jugador_x_cambio -= 0.3
+                jugador_x_cambio -= 1
             if evento.key == pygame.K_RIGHT:
-                jugador_x_cambio += 0.3
+                jugador_x_cambio += 1
 
         # Detener el movimiento del jugador
         if evento.type == pygame.KEYUP:
@@ -69,10 +70,10 @@ while se_ejecuta:
 
     # Limitar el movimiento del enemigo
     if enemigo_x <= 0:
-        enemigo_x_cambio = 0.3
+        enemigo_x_cambio = 1
         enemigo_y += 40
     elif enemigo_x >= 736:
-        enemigo_x_cambio = -0.3
+        enemigo_x_cambio = -1
         enemigo_y += 40
 
     # Dibujar el jugador
