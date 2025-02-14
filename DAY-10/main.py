@@ -1,5 +1,5 @@
 import pygame
-
+import random
 # Inicializar Pygame
 pygame.init()
 
@@ -17,9 +17,19 @@ jugador_x = 400 - 32
 jugador_y = 600 - 100
 jugador_x_cambio = 0
 
+# Variables del enemigo
+img_enemigo = pygame.image.load("enemigo.png")
+enemigo_x = random.randint(0, 736)
+enemigo_y = random.randint(50, 200)
+enemigo_x_cambio = 0.3
+
 # Funcion para dibujar el jugador
 def jugador(x, y):
     pantalla.blit(img_jugador, (x, y))
+
+# Funcion para dibujar el enemigo
+def enemigo(x, y):
+    pantalla.blit(img_enemigo, (x, y))
 
 # Loop del juego
 se_ejecuta = True
@@ -54,8 +64,22 @@ while se_ejecuta:
     elif jugador_x >= 736:
         jugador_x = 736
 
+    # Movimiento del enemigo
+    enemigo_x += enemigo_x_cambio
+
+    # Limitar el movimiento del enemigo
+    if enemigo_x <= 0:
+        enemigo_x_cambio = 0.3
+        enemigo_y += 40
+    elif enemigo_x >= 736:
+        enemigo_x_cambio = -0.3
+        enemigo_y += 40
+
     # Dibujar el jugador
     jugador(jugador_x, jugador_y)
+
+    # Dibujar el enemigo
+    enemigo(enemigo_x, enemigo_y)
 
     # Actualizar la pantalla
     pygame.display.update()
