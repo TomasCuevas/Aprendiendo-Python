@@ -16,7 +16,9 @@ resultado = requests.get(URL)
 sopa = bs4.BeautifulSoup(resultado.text, "html.parser")
 
 titulo = sopa.select("title")[0].getText()
-print(f"WEB: {titulo}\n")
+web_logo = sopa.select("a.header-image-wrapper img")
+print(f"Web: {titulo}")
+print(f"Logo de la web: {web_logo[0].get('src')}\n")
 
 titulo_de_articulos = sopa.select("div.r-snippetized[class='r-snippetized']")
 autor_del_articulo = sopa.select("a[title='author profile']")
