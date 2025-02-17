@@ -1,3 +1,12 @@
+"""
+    # EXTRAER ELEMENTOS:
+        soup.select('div') --> Todos los elementos con la etiqueta 'div'
+        soup.select('#estilo_4') --> Elementos que contengan id='estilo4'
+        soup.select('.columna_der') --> Elementos que contengan class='columna der'
+        soup.select('div span') --> Cualquier elemento llamado 'span' dentro de un elemento 'div'
+        soup.select('div>span') --> Cualquier elemento llamado 'span' directamente dentro de un elemento 'div', sin nada en el medio
+"""
+
 import bs4
 import requests
 
@@ -10,6 +19,11 @@ titulo = sopa.select("title")[0].getText()
 print(f"WEB: {titulo}\n")
 
 titulo_de_articulos = sopa.select("div.r-snippetized[class='r-snippetized']")
+autor_del_articulo = sopa.select("a[title='author profile']")
 
-for titulo in titulo_de_articulos:
-    print(f"Titulo de articulo: {titulo.getText().strip()}")
+for titulo, autor in zip(titulo_de_articulos, autor_del_articulo):
+    print(f"\nTitulo de articulo: {titulo.getText().strip()}")
+    print(f"Autor del articulo: {autor.getText().strip()}")
+
+
+
