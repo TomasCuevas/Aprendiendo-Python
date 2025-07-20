@@ -1,2 +1,0 @@
-Hola
-Este es el nuevo texto para el archivo 'prueba.txt'
